@@ -1,4 +1,4 @@
-# Pet Care Backend
+# Pet Care Server
 
 ## Overview
 
