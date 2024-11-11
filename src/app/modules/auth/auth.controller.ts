@@ -41,7 +41,6 @@ const refreshToken = catchAsync(async (req, res) => {
   // getting refresh token from cookie
   const { refreshToken } = req.cookies;
   const result = await AuthServices.refreshToken(refreshToken);
-
   sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
